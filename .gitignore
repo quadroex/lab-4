@@ -1,0 +1,16 @@
+build/
+out/
+.vs/
+x64/
+Debug/
+Release/
+*.user
+*.pdb
+*.ilk
+*.obj
+*.idb
+*.ipch
+*.exe
+*.txt
+Thumbs.db
+.DS_Store
