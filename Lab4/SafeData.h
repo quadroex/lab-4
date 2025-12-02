@@ -9,8 +9,8 @@
 class SafeData
 {
 private:
-    std::array<int, 3> data{ 1, 1, 1 };
-    mutable std::array<std::shared_mutex, 3> mutexes;
+    int data[3] = {1, 1, 1};
+    mutable std::shared_mutex mutexes[3];
 
 public:
     SafeData() = default;
