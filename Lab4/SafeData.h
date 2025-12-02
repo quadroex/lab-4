@@ -4,7 +4,6 @@
 #include <shared_mutex>
 #include <mutex>
 #include <sstream>
-#include <array>
 
 class SafeData
 {
